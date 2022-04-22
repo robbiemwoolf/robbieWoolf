@@ -9,6 +9,13 @@ header {
 footer {
 	background-color: #3D6A3F; /*dark green; same as header*/
 }
+
+/* The following CSS properties:
+
+background, color, font-family, font-size,
+height, margin, padding, text-align
+*/
+
 .wow {
   width: 100px;
 }

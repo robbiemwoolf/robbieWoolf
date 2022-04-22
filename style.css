@@ -10,6 +10,9 @@ footer {
 	background-color: #133412; /*dark green; same as header*/
 }
 
+.right { 
+	text-align: right}
+
 a:link    { color: #2c7929;}
 a:visited { color: #4c9949;}
 a:hover   { color: #1f561d; }

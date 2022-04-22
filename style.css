@@ -1,16 +1,26 @@
 body {
-	background-color: #99C29C; /*mint green*/
+	background-color: #1f561d; /*green*/
   margin: 0;
 }
 header {
-	height: 250px;
-	background-color: #3D6A3F; /*dark green; same as footer*/
+	height: 140px;
+	background-color: #133412; /*dark green; same as footer*/
 }
 footer {
-	background-color: #3D6A3F; /*dark green; same as header*/
+	background-color: #133412; /*dark green; same as header*/
 }
 
+a:link    { color: #2c7929;}
+a:visited { color: #4c9949;}
+a:hover   { color: #1f561d; }
+a:active  { color: #061106;  }
 /* The following CSS properties:
+
+#061106	dark green almost black
+#133412	dark green
+#1f561d	green
+#2c7929	bright green
+#4c9949 light green
 
 background, color, font-family, font-size,
 height, margin, padding, text-align

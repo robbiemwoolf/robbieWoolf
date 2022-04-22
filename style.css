@@ -1,10 +1,13 @@
 body {
-	background-color: #99C29C; 
+	background-color: #99C29C; /*mint green*/
   margin: 0;
 }
 header {
-	height: 120px;
-	background-color: #3D6A3F; /*dark green*/
+	height: 250px;
+	background-color: #3D6A3F; /*dark green; same as footer*/
+}
+footer {
+	background-color: #3D6A3F; /*dark green; same as header*/
 }
 .wow {
   width: 100px;

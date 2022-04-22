@@ -1,3 +1,11 @@
+body {
+	background-color: #99C29C; 
+  margin: 0;
+}
+header {
+	height: 120px;
+	background-color: #3D6A3F; /*dark green*/
+}
 .wow {
   width: 100px;
 }

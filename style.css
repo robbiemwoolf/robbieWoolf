@@ -1,36 +1,85 @@
 body {
-	background-color: #1f561d; /*green*/
-  margin: 0;
+  height: 100%
+	background-color:#F8FFF0; 
 }
+
+
 header {
-	height: 140px;
-	background-color: #133412; /*dark green; same as footer*/
-}
+	background-image: url("images/sustainablecityheader.jpg");
+  background-size: 100% 250px;
+  }
+
 footer {
-	background-color: #133412; /*dark green; same as header*/
+  height: 100px;
+	background-color:#D7F0B4;
 }
+
+.btn {
+  display: inline-block;
+  font-family: courier new, monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px;
+  padding: 6px 6px;
+  border-radius: 6px;
+}
+
+.btn-nav {
+  color: #000;
+  background-color: #D7F0B4;
+  border-color: #D7F0B4;
+}
+
+nav {
+  font-family: courier new, monospace;
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: courier new, monospace;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px
+}
+
+h2, h3, p {
+  font-family: courier new, monospace;
+}
+
 
 .right { 
 	text-align: right}
 
-a:link    { color: #2c7929;}
-a:visited { color: #4c9949;}
-a:hover   { color: #1f561d; }
-a:active  { color: #061106;  }
-/* The following CSS properties:
+.center {
+  text-align: center}
 
-#061106	dark green almost black
-#133412	dark green
-#1f561d	green
-#2c7929	bright green
-#4c9949 light green
-
-background, color, font-family, font-size,
-height, margin, padding, text-align
-
-Styled links using pseudo-classes
-*/
-
-.wow {
-  width: 100px;
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
+
+.img-rounded {
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+}
+
+.wrapper {
+margin-right: auto;
+margin-left: auto; 
+max-width:1160px;
+padding-right: 10px; 
+padding-left: 10px; 
+}
+
+a:link    { color: #000000;}
+a:visited { color: #0b7512;}
+a:hover   { color: #FFFFFF; }
+a:active  { color: #0c1be9;  }
+
+

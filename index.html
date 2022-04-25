@@ -16,38 +16,57 @@
 <body>
   
   <header>
-    <h1><a href="index.html">Robbie Woolf</a></h1>
-  <nav class="right">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="contact.html">Contact</a>
+    <h1>Robbie Woolf</h1>
+    <nav class="center">
+    <a href="index.html" class="btn btn-nav">Home</a>
+    <a href="#about me" class="btn btn-nav">About Me</a>
+    <a href="#contact" class="btn btn-nav">Contact</a>
     </nav>
   </header>
+
+
   
   <main>
-    <p>Hi! I am Robbie Woolf and I am located in Sacramento, CA</p>
+   <div class="wrapper"><p>Hi there! I am Robbie and I am currently living in Sacramento, CA with my spouse and our three canine kiddos.</p>
+     <img src="images/kiddos.jpg" class="img-rounded" width=250 height=250>
+     </div> 
+
+<hr>
     
-    <h2>About Me</h2>
-    <p>A description that shows your passion for web development and your willingness to work with others</p>
-    <p>One or two sentences that describe other interests you have outside of web development</p>
+   <article id="about me" class="wrapper"><h2 class="center">About Me</h2>
+    <p>I've had a passion for tinkering and dissecting the inner workings of technology since childhood. Though I've tried my hand at a few different jobs to further my passion, I've decided to go back to basics in a way and focus on furthering my first outlet for my passion, which is coding.</p>
+    <p>As an avid hobby starter, I have and will try many hobbies--much to the exasperation of my parter--but whether they remain hobbies is typically 1/5 chance. As for the keepers, those include reading (primarily nonfiction and comics), Magic the Gathering, playing board games, watching horror movies with my partner (a love of which we both share), hiking, cooking, working out, and just playing with my fur babies. I hate being bored, so I try to always be entertained.</p>
+    </article>
     
-    <h2>Contact</h2>
-    <p>A link to your LinkedIn profile</p>
-    <p>A link to your GitHub profile</p>
-    <p>A link to your email (optional)</p>
-  </main>
+   <div>
+    <article><h3>Currently Reading</h3>
+    <ul><li>Beginners by Tom Vanderbilt</li>
+    <li>Spider-punk by Cody Ziglar</li>
+    <li>Happy City by Charles Montgomery</li>
+    </ul>
+    </article>
+    <article><h3>Favorite Horror Movies</h3>
+    <ol><li>The Witch (2015)</li>
+    <li>Hereditary (2018)</li>
+    <li>Society (1989)</li></ol>
+    </article>
+    </div>
+    
+</main>
+
+
+
   
-  <footer>Copyright</footer>
-<!-- 
+  <footer class="center">
+    <article id="contact">
+    <a href="https://www.linkedin.com/in/robbiewoolf/"><img src="images/linkedinlogo.png" class="logo-circle" alt="LinkedIn profile"</a>
+    <a href="https://github.com/robbiemwoolf"><img src="images/githublogo.png" class="logo-circle" alt="GitHub profile"</a>
+    <a href="mailto:robbiemwoolf@gmail.com"><img src="images/emaillogo.png" class="logo-circle" alt="Email me"</a>
+    
+    <h3 class="center">Contact</h3> 
+    </article>
+  </footer>
 
-Semantic containers like main, article, and footer
-
-The following HTML elements:
-
-doctype, html, head, body, meta, title,
-h1, h2, h3, p, link, ul, ol, img, a, hr
-
--->
   
  <script src="script.js"></script>
 </body>

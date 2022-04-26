@@ -1,25 +1,12 @@
+a:link    { color: #000000;}
+a:visited { color: #0b7512;}
+a:hover   { color: #FFFFFF;}
+a:active  { color: #0c1be9;}
+
 body {
   height: 100%
 	background-color:#F8FFF0; 
 }
-
-header {
-	background-image: url("images/sustainablecityheader.jpg");
-  background-size: 100% 250px;
-  }
-
-footer {
-  height: 100px;
-	background-color:#D7F0B4;
-}
-
-footer p {
-  display: block;
-  float: left;
-  height: 100%;
-  width: 100%;
-}
-
 
 .btn {
   display: inline-block;
@@ -38,22 +25,30 @@ footer p {
   border-color: #D7F0B4;
 }
 
-nav {
-  font-family: courier new, monospace;
-  padding-top: 0px;
-  padding-bottom: 100px;
-}
+.center {
+  text-align: center}
 
 .column {
   float: left;
   width: 25%;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;  
+footer {
+  height: 100px;
+	background-color:#D7F0B4;
 }
+
+footer p {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+	background-image: url("images/sustainablecityheader.jpg");
+  background-size: 100% 250px;
+  }
 
 h1 {
   font-family: courier new, monospace;
@@ -63,24 +58,11 @@ h1 {
 }
 
 h2, h3, p {
-  font-family: courier new, monospace;
-}
+  font-family: courier new, monospace;}
 
 hr {
   margin-left: 175px;
   margin-right: 175px;
-}
-
-.right { 
-	text-align: right}
-
-.center {
-  text-align: center}
-
-.logo-circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
 }
 
 .img-rounded {
@@ -91,6 +73,24 @@ hr {
   width: 32%;
 }
 
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav {
+  font-family: courier new, monospace;
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;  
+}
+
 .wrapper {
 margin-right: auto;
 margin-left: auto; 
@@ -98,10 +98,5 @@ max-width:1160px;
 padding-right: 10px; 
 padding-left: 10px; 
 }
-
-a:link    { color: #000000;}
-a:visited { color: #0b7512;}
-a:hover   { color: #FFFFFF; }
-a:active  { color: #0c1be9;  }
 
 

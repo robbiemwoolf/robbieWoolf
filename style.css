@@ -13,6 +13,14 @@ footer {
 	background-color:#D7F0B4;
 }
 
+footer p {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+
 .btn {
   display: inline-block;
   font-family: courier new, monospace;

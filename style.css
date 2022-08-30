@@ -1,8 +1,15 @@
 body {
+  font-family: monospace;
+  margin: auto;
   color: white;
+  width: 50%;
   background-color: black;
 }
 
 a {
   color: rgb(153, 69, 153)
+}
+
+img {
+  max-width: 80%;
 }
